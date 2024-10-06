@@ -17,6 +17,7 @@ const server = http.createServer((req, res) => {
                 </body>
             </html>
         `);
+        //1
         res.end();
     } else if (req.method === 'POST' && req.url === '/') {
         let body = '';
